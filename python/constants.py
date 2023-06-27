@@ -37,3 +37,17 @@ MESSAGES = [
     {'role': 'system', 'content': 'You are a helpful assistant that gives me information from a user agent string.'},
     {'role': 'user', 'content': ''}
 ]
+
+USER_AGENT_DICT_INFO = {
+    'browser_name': [],
+    'device_type': [],
+    'is_browser': [],
+    'is_mobilephone': [],
+    'is_robot': [],
+    'is_spam': '',
+    'is_tablet': [],
+    'is_touchcapable':'',
+    'manufacturer': [],
+    'mobile_device': [],
+    'os_name': []
+}
