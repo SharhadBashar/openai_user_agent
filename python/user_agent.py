@@ -7,8 +7,6 @@ class User_Agent:
 
     def get_user_agent_info(self, ua_string):
         ua = user_agents.parse(ua_string)
-
-        # pprint(ua.__dict__)
         
         device_type = ua.device.family
         browser_name = ua.browser.family
